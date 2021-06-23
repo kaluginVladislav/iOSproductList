@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="44O-mV-RAD">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch Screen Snapshot View Controller-->
+        <scene sceneID="zTl-nb-leI">
+            <objects>
+                <viewController id="44O-mV-RAD" customClass="LaunchScreenSnapshotViewController" customModule="ProductList" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NEm-A8-Hby">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="application.logo" translatesAutoresizingMaskIntoConstraints="NO" id="PNf-7N-EH4" userLabel="Logo">
+                                <rect key="frame" x="159" y="395" width="96" height="106"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="qbQ-Cr-NYy">
+                                <rect key="frame" x="133" y="787.66666666666663" width="148.33333333333337" height="42.333333333333371"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App version" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pgZ-Gg-ADl" userLabel="LabelVersionText">
+                                        <rect key="frame" x="0.0" y="0.0" width="148.33333333333334" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="textColor" name="Application Tertiary Label Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="1.0.1 dated 01.01.1970" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ruY-a9-Ycf" userLabel="LabelDate">
+                                        <rect key="frame" x="0.0" y="24.333333333333371" width="148.33333333333334" height="18"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <color key="textColor" name="Application Tertiary Label Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7qE-SF-wsU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qbQ-Cr-NYy" firstAttribute="centerX" secondItem="7qE-SF-wsU" secondAttribute="centerX" id="GCi-i7-d3H"/>
+                            <constraint firstItem="PNf-7N-EH4" firstAttribute="centerY" secondItem="NEm-A8-Hby" secondAttribute="centerY" id="MqT-Ld-gJQ"/>
+                            <constraint firstItem="7qE-SF-wsU" firstAttribute="bottom" secondItem="qbQ-Cr-NYy" secondAttribute="bottom" constant="32" id="eI5-X4-1C9"/>
+                            <constraint firstItem="7qE-SF-wsU" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qbQ-Cr-NYy" secondAttribute="trailing" constant="32" id="swP-1O-2zE"/>
+                            <constraint firstItem="qbQ-Cr-NYy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7qE-SF-wsU" secondAttribute="leading" constant="32" id="zm3-Bv-Snx"/>
+                            <constraint firstItem="PNf-7N-EH4" firstAttribute="centerX" secondItem="NEm-A8-Hby" secondAttribute="centerX" id="zyI-DB-nwV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="applicationReleaseInfoLabel" destination="ruY-a9-Ycf" id="FXR-nG-nZ3"/>
+                        <outlet property="applicationReleaseStackView" destination="qbQ-Cr-NYy" id="0HV-G2-vCv"/>
+                        <outlet property="applicationReleaseTitleLabel" destination="pgZ-Gg-ADl" id="A8X-ga-s1W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kiC-wZ-LDu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-794.20289855072474" y="-802.23214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="application.logo" width="96" height="106"/>
+        <namedColor name="Application Tertiary Label Color">
+            <color red="0.23499999940395355" green="0.23499999940395355" blue="0.2630000114440918" alpha="0.30000001192092896" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

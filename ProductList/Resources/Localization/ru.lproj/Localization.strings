@@ -1,0 +1,72 @@
+/* 
+  Localization.strings
+  ProductList
+
+  Created by Vladislav Kalugin on 15.08.2020.
+  Copyright © 2020 Vladislav Kalugin. All rights reserved.
+*/
+
+"product.list.title" = "Список";
+"product.list.table.view.trailing.swipe.action.delete.title" = "Удалить";
+"product.list.table.view.leading.swipe.action.basket.title" = "В корзину";
+"product.list.context.menu.edit" = "Редактировать";
+"product.list.context.menu.select" = "Выбрать";
+"product.list.context.menu.move" = "Переместить";
+"product.list.context.menu.to.backet" = "В корзину";
+"product.list.context.menu.delete" = "Удалить";
+"product.list.cover.empty.title" = "Список продуктов пуст";
+"product.list.cover.empty.subtitle" = "Добавьте продукты чтобы продолжить";
+"product.list.editing.selected.title" = "%d выбрано";
+"product.list.editing.navbar.select.all" = "Выбрать все";
+"product.list.editing.navbar.deselect.all" = "Убрать все";
+"product.list.editing.navbar.done" = "Готово";
+"product.list.editing.toolbar.to.basket" = "В корзину";
+"product.list.editing.toolbar.delete" = "Удалить";
+
+"product.basket.title" = "Корзина";
+"product.basket.toast.success.delete.objects" = "Корзина успешно очищена";
+"product.basket.table.view.trailing.swipe.action.list.title" = "В список";
+"product.basket.table.view.leading.swipe.action.delete.title" = "Удалить";
+"product.basket.context.menu.to.list" = "В список";
+"product.basket.context.menu.delete" = "Удалить";
+"product.basket.cover.empty.title" = "Корзина пуста";
+"product.basket.cover.empty.subtitle" = "Добавьте продукты из главной страницы чтобы продолжить";
+
+"product.editor.edit.title" = "Изменить";
+"product.editor.add.title" = "Добавить";
+"product.editor.table.view.leading.swipe.action.delete.title" = "Delete";
+"product.editor.context.menu.delete" = "Удалить";
+"product.editor.context.menu.choose" = "Выбрать";
+"product.editor.note.field.placeholder" = "Заметка";
+"product.editor.name.text.field.placeholder" = "Название";
+"product.editor.volume.text.field.placeholder" = "Количество";
+
+"emoji.picker.cancel.button.title" = "Отменить";
+
+"emoji.category.food.title" = "Еда и напитки";
+"emoji.category.clothings.title" = "Одежда и аксессуары";
+"emoji.category.animals.title" = "Животные и природа";
+"emoji.category.activity.title" = "Занятия спортом";
+
+"error.cocoa.delete.object.required.value.description" = "Продукт не может быть удален, потому что он используется в списке продуктов или корзине";
+
+"cover.preset.empty.title" = "Пусто";
+"cover.preset.empty.subtitle" = "Добавьте объекты чтобы продолжить";
+"cover.preset.error.title" = "Ошибка";
+"cover.preset.error.subtitle" = "Что-то пошло не так. Пожалуйста, повторите снова или обратитесь в тех поддержу";
+"cover.preset.error.critical.title" = "Ошибка";
+"cover.preset.error.critical.subtitle" = "Извините, этого не должно было произойти. Пожалуйста, обратитесь в техподдержку";
+
+"volume.unit.gr" = "г";
+"volume.unit.kg" = "кг";
+"volume.unit.ml" = "мл";
+"volume.unit.l" = "л";
+
+"launch.screen.release.title" = "Версия приложения";
+"launch.screen.release.info" = "%1$@ от %2$@";
+
+"more.title" = "Ещë";
+"more.cell.feedback.title" = "Обратная связь";
+"more.cell.about.application.title" = "О приложении";
+"more.toast.mail.service.error" = "Почтовая служба недоступна. Активируйте приложение Почта";
+

@@ -1,0 +1,71 @@
+/* 
+  Localization.strings
+  ProductList
+
+  Created by Vladislav Kalugin on 15.08.2020.
+  Copyright © 2020 Vladislav Kalugin. All rights reserved.
+*/
+
+"product.list.title" = "List";
+"product.list.table.view.trailing.swipe.action.delete.title" = "Delete";
+"product.list.table.view.leading.swipe.action.basket.title" = "To basket";
+"product.list.context.menu.edit" = "Edit";
+"product.list.context.menu.select" = "Select";
+"product.list.context.menu.move" = "Move";
+"product.list.context.menu.to.backet" = "To basket";
+"product.list.context.menu.delete" = "Delete";
+"product.list.cover.empty.title" = "Product list is empty";
+"product.list.cover.empty.subtitle" = "Add products to continue";
+"product.list.editing.selected.title" = "%d selected";
+"product.list.editing.navbar.select.all" = "Select all";
+"product.list.editing.navbar.deselect.all" = "Deselect all";
+"product.list.editing.navbar.done" = "Done";
+"product.list.editing.toolbar.to.basket" = "To basket";
+"product.list.editing.toolbar.delete" = "Remove";
+
+"product.basket.title" = "Basket";
+"product.basket.toast.success.delete.objects" = "Clear basket success";
+"product.basket.table.view.trailing.swipe.action.list.title" = "To list";
+"product.basket.table.view.leading.swipe.action.delete.title" = "Delete";
+"product.basket.context.menu.to.list" = "To list";
+"product.basket.context.menu.delete" = "Delete";
+"product.basket.cover.empty.title" = "Basket is empty";
+"product.basket.cover.empty.subtitle" = "Add products from main page to continue";
+
+"product.editor.edit.title" = "Edit";
+"product.editor.add.title" = "Add";
+"product.editor.table.view.leading.swipe.action.delete.title" = "Delete";
+"product.editor.context.menu.delete" = "Delete";
+"product.editor.context.menu.choose" = "Choose";
+"product.editor.note.field.placeholder" = "Note";
+"product.editor.name.text.field.placeholder" = "Name";
+"product.editor.volume.text.field.placeholder" = "Volume";
+
+"emoji.picker.cancel.button.title" = "Cancel";
+
+"emoji.category.food.title" = "Food and drinks";
+"emoji.category.clothings.title" = "Clothing and Accessories";
+"emoji.category.animals.title" = "Animals and nature";
+"emoji.category.activity.title" = "Activity and sport";
+
+"error.cocoa.delete.object.required.value.description" = "The product cannot be removed because it is being used in the product list or shopping cart.";
+
+"cover.preset.empty.title" = "Empty";
+"cover.preset.empty.subtitle" = "Add objects to continue";
+"cover.preset.error.title" = "Error";
+"cover.preset.error.subtitle" = "Something went wrong. Please try again or contact support";
+"cover.preset.error.critical.title" = "Error";
+"cover.preset.error.critical.subtitle" = "Sorry, this shouldn't happen. Please contact technical support";
+
+"volume.unit.gr" = "g";
+"volume.unit.kg" = "kg";
+"volume.unit.ml" = "ml";
+"volume.unit.l" = "l";
+
+"launch.screen.release.title" = "App version";
+"launch.screen.release.info" = "%1$@ dated %2$@";
+
+"more.title" = "More";
+"more.cell.feedback.title" = "Feedback";
+"more.cell.about.application.title" = "About application";
+"more.toast.mail.service.error" = "Mail services are not available. Activate Mail app";

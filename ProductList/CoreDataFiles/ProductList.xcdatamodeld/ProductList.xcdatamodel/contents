@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PLProduct" representedClassName=".PLProductManagedObject" syncable="YES">
+        <attribute name="emoji" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="origin" attributeType="String"/>
+        <relationship name="package" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PLProductPackage" inverseName="product" inverseEntity="PLProductPackage"/>
+    </entity>
+    <entity name="PLProductPackage" representedClassName=".PLProductPackageManagedObject" syncable="YES">
+        <attribute name="count" attributeType="Integer 64" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="creationDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="index" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="visibility" attributeType="String"/>
+        <attribute name="volumeCount" optional="YES" attributeType="Integer 64" usesScalarValueType="NO"/>
+        <attribute name="volumeUnit" optional="YES" attributeType="String"/>
+        <relationship name="product" maxCount="1" deletionRule="Nullify" destinationEntity="PLProduct" inverseName="package" inverseEntity="PLProduct"/>
+    </entity>
+    <fetchRequest name="PLBasketProductPackages" entity="PLProductPackage" predicateString="visibility == &quot;\&quot;basket\&quot;&quot;"/>
+    <fetchRequest name="PLListProductPackages" entity="PLProductPackage" predicateString="visibility == &quot;\&quot;list\&quot;&quot;"/>
+    <elements>
+        <element name="PLProduct" positionX="179.5390625" positionY="52.9453125" width="128" height="103"/>
+        <element name="PLProductPackage" positionX="-18" positionY="54" width="128" height="148"/>
+    </elements>
+</model>
